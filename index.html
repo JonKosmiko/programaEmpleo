@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="eu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lanbide Bulegoa - Datu-basea</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="app-container">
+        <div id="home-page" class="page">
+            <div class="header">
+                <h1>Eskatzaileen Kudeaketa Sistema - B.2.1</h1>
+                <div class="menu-bar">
+                    <span>Fitxategia</span>
+                    <span>Edizioa</span>
+                    <span>Ikusi</span>
+                    <span>Tresnak</span>
+                    <span>Laguntza</span>
+                </div>
+            </div>
+            <div class="toolbar">
+                <input type="text" id="search-input" placeholder="Bilaketa-irizpidea sartu...">
+                <button id="search-button">Bilatu</button>
+                <button disabled>Berria</button>
+                <button disabled>Editatu</button>
+                <button disabled>Ezabatu</button>
+                <button disabled>Inprimatu</button>
+            </div>
+            <div class="main-content">
+                <p>Uneko eskatzaileen zerrenda:</p>
+                <table class="data-table">
+                    <thead>
+                        <tr>
+                            <th>Eskaera IDa</th>
+                            <th>Izena</th>
+                            <th>Abizena(k)</th>
+                            <th>Egoera</th>
+                            <th>Erregistro Data</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr><td>000123</td><td>Aitor</td><td>Martínez Echeverría</td><td>Aktibo</td><td>15/01/2020</td></tr>
+                        <tr><td>000124</td><td>Amaia</td><td>García Larrañaga</td><td>Inaktibo</td><td>20/02/2019</td></tr>
+                        <tr><td>000125</td><td>Gorka</td><td>Pérez Ugarte</td><td>Aktibo</td><td>01/03/2021</td></tr>
+                        <tr><td>000126</td><td>Leire</td><td>Rodríguez Goikoetxea</td><td>Zain</td><td>10/04/2018</td></tr>
+                        <tr><td>000127</td><td>Iker</td><td>Fernández Irazabal</td><td>Aktibo</td><td>05/05/2022</td></tr>
+                        <tr><td>000128</td><td>Nerea</td><td>López Azkue</td><td>Inaktibo</td><td>12/06/2017</td></tr>
+                        <tr><td>000129</td><td>Javier</td><td>Uriarte Bilbao</td><td>Aktibo</td><td>23/07/2020</td></tr>
+                        <tr><td>000130</td><td>Maite</td><td>González Mendizabal</td><td>Aktibo</td><td>30/08/2021</td></tr>
+                        <tr><td>000131</td><td>Unai</td><td>Ruiz Agirre</td><td>Zain</td><td>02/09/2019</td></tr>
+                        <tr><td>000132</td><td>Ainara</td><td>Sánchez Etxebarria</td><td>Inaktibo</td><td>11/10/2018</td></tr>
+                        <tr><td>000133</td><td>Patxi</td><td>Martín Zamakona</td><td>Aktibo</td><td>19/11/2022</td></tr>
+                        <tr><td>000134</td><td>Irati</td><td>Gil Ezkurra</td><td>Aktibo</td><td>07/12/2017</td></tr>
+                        <tr><td>000135</td><td>Jon</td><td>Díaz Garmendia</td><td>Zain</td><td>25/01/2021</td></tr>
+                        <tr><td>000136</td><td>Mikel</td><td>Ortiz Arana</td><td>Inaktibo</td><td>14/02/2020</td></tr>
+                        <tr><td>000137</td><td>Ane</td><td>Ramírez Landa</td><td>Aktibo</td><td>08/03/2019</td></tr>
+                        <tr><td>000138</td><td>Eneko</td><td>Jiménez Arregi</td><td>Aktibo</td><td>17/04/2022</td></tr>
+                        <tr><td>000139</td><td>Garazi</td><td>Torres Basterretxea</td><td>Inaktibo</td><td>29/05/2018</td></tr>
+                        <tr><td>000140</td><td>Asier</td><td>Moreno Echegoyen</td><td>Aktibo</td><td>03/06/2020</td></tr>
+                        <tr><td>000141</td><td>Itsaso</td><td>Romero Urizar</td><td>Zain</td><td>18/07/2021</td></tr>
+                        <tr><td>000142</td><td>Xabier</td><td>Alonso Legarreta</td><td>Inaktibo</td><td>26/08/2019</td></tr>
+                        <tr><td>000143</td><td>Nagore</td><td>Pascual Galarza</td><td>Aktibo</td><td>04/09/2018</td></tr>
+                        <tr><td>000144</td><td>Endika</td><td>Blanco Olabarria</td><td>Aktibo</td><td>13/10/2022</td></tr>
+                        <tr><td>000145</td><td>Izaro</td><td>Rubio Gorostiza</td><td>Zain</td><td>21/11/2017</td></tr>
+                        <tr><td>000146</td><td>Kepa</td><td>Sanz Sagarduy</td><td>Inaktibo</td><td>09/12/2020</td></tr>
+                        <tr><td>000147</td><td>Miren</td><td>Herrera Bilbao</td><td>Aktibo</td><td>16/01/2021</td></tr>
+                        <tr><td>000148</td><td>Pello</td><td>Castillo Artetxe</td><td>Aktibo</td><td>24/02/2019</td></tr>
+                        <tr><td>000149</td><td>Esti</td><td>Vázquez Ibarrola</td><td>Zain</td><td>06/03/2022</td></tr>
+                        <tr><td>000150</td><td>Beñat</td><td>Flores Errekalde</td><td>Inaktibo</td><td>15/04/2018</td></tr>
+                        <tr><td>000151</td><td>Haizea</td><td>Cruz Aranburu</td><td>Aktibo</td><td>28/05/2020</td></tr>
+                        <tr><td>000152</td><td>Ibon</td><td>Guerrero Zarate</td><td>Aktibo</td><td>07/06/2021</td></tr>
+                        <tr><td>000153</td><td>Uxue</td><td>Prieto Iparragirre</td><td>Zain</td><td>14/07/2019</td></tr>
+                        <tr><td>000154</td><td>Oier</td><td>Pascual Zugazaga</td><td>Inaktibo</td><td>01/08/2018</td></tr>
+                        <tr><td>000155</td><td>Nahia</td><td>Ramos Aldalur</td><td>Aktibo</td><td>10/09/2022</td></tr>
+                        <tr><td>000156</td><td>Andoni</td><td>Domínguez Lazkano</td><td>Aktibo</td><td>18/10/2017</td></tr>
+                        <tr><td>000157</td><td>Maitane</td><td>Núñez Arrieta</td><td>Zain</td><td>27/11/2020</td></tr>
+                        <tr><td>000158</td><td>Joseba</td><td>Iglesias Ochandiano</td><td>Inaktibo</td><td>05/12/2021</td></tr>
+                        <tr><td>000159</td><td>Alazne</td><td>Serrano Gorrotxategi</td><td>Aktibo</td><td>20/01/2019</td></tr>
+                        <tr><td>000160</td><td>Enara</td><td>Suárez Astigarraga</td><td>Aktibo</td><td>09/02/2022</td></tr>
+                        <tr><td>000161</td><td>Gotzon</td><td>Morales Intxaurraga</td><td>Zain</td><td>17/03/2018</td></tr>
+                        <tr><td>000162</td><td>Zuriñe</td><td>Ortega Artza</td><td>Inaktibo</td><td>29/04/2020</td></tr>
+                        <tr><td>000163</td><td>Iñaki</td><td>Vega Lertxundi</td><td>Aktibo</td><td>08/05/2021</td></tr>
+                        <tr><td>000164</td><td>Maddi</td><td>Vargas Osa</td><td>Aktibo</td><td>15/06/2019</td></tr>
+                        <tr><td>000165</td><td>Julen</td><td>Rico Telleria</td><td>Zain</td><td>22/07/2018</td></tr>
+                        <tr><td>000166</td><td>Ainhoa</td><td>Castro Zugasti</td><td>Inaktibo</td><td>03/08/2022</td></tr>
+                        <tr><td>000167</td><td>Markel</td><td>Peña Etxeberria</td><td>Aktibo</td><td>11/09/2017</td></tr>
+                        <tr><td>000168</td><td>Izaskun</td><td>García Aldazabal</td><td>Aktibo</td><td>20/10/2020</td></tr>
+                        <tr><td>000169</td><td>Irantzu</td><td>Ruiz de Eguino</td><td>Zain</td><td>28/11/2021</td></tr>
+                        <tr><td>000170</td><td>Igor</td><td>Hernández Gisasola</td><td>Inaktibo</td><td>06/12/2019</td></tr>
+                        <tr><td>000171</td><td>Haize</td><td>Pérez Lizaso</td><td>Aktibo</td><td>13/01/2018</td></tr>
+                        <tr><td>000172</td><td>Koldo</td><td>Martínez Arriola</td><td>Aktibo</td><td>25/02/2022</td></tr>
+                        <tr><td>000173</td><td>Lorena</td><td>Sánchez Aranaz</td><td>Zain</td><td>04/03/2017</td></tr>
+                        <tr><td>000174</td><td>Ekaitz</td><td>Fernández Jauregi</td><td>Inaktibo</td><td>12/04/2020</td></tr>
+                        <tr><td>000175</td><td>Saioa</td><td>López Berasategi</td><td>Aktibo</td><td>19/05/2021</td></tr>
+                    </tbody>
+                </table>
+                <div class="status-bar">
+                    <span>Erakutsitako erregistroak: 55etik 1543</span>
+                    <span>Erabiltzailea: Administratzailea</span>
+                </div>
+            </div>
+        </div>
+
+        <div id="detail-page" class="page hidden">
+            <div class="header">
+                <h1>Eskatzailearen Xehetasunak - IDa: S-4729</h1>
+                <div class="menu-bar">
+                    <span>Fitxategia</span>
+                    <span>Edizioa</span>
+                    <span>Ikusi</span>
+                    <span>Tresnak</span>
+                    <span>Laguntza</span>
+                </div>
+            </div>
+            <div class="toolbar">
+                <button id="back-button">Atzera</button>
+                <button disabled>Gorde</button>
+                <button disabled>Aldatu</button>
+                <button disabled>Eranskinak</button>
+                <button disabled>Historia</button>
+            </div>
+            <div class="main-content detail-content">
+                <h2>Informazio Pertsonala</h2>
+                <div class="person-photo">
+                    <img src="fotoPerfil.jpeg" alt="Lucia Mugika Mugika">
+                </div>
+                <p><strong>Izena:</strong> Lucia</p>
+                <p><strong>Abizena(k):</strong> Mugika Mugika</p>
+                <p><strong>NAN/IFZ:</strong> 12345678X</p>
+                <p><strong>Jaiotze Data:</strong> 1997/05/08</p>
+                <p><strong>Helbidea:</strong> San Frantzisko Kalea, 28-2º Eskubia</p>
+                <p><strong>Posta Kodea:</strong> 20002</p>
+                <p><strong>Telefonoa:</strong> 61611899</p>
+                <p><strong>Posta Elektronikoa:</strong> luciaMetralleta@euskomail.eus</p>
+
+                <h2>Enplegu Datuak</h2>
+                <p><strong>Uneko Egoera:</strong> Langabezian</p>
+                <p><strong>Azken Lanbidea:</strong> Autobus-gidaria</p>
+                <p><strong>Langabezian Igo:</strong> 1 egun</p>
+                <p><strong>Gaitasun Gakoak:</strong> Ibilgailu handiak gidatzea, elkarrizketa ona, jarioa euskaraz, kantua</p>
+                <p><strong>Barne Oharrak:</strong> Ausarkeriaz gidatzea, jasanezina, ertza, kanta txarra</p>
+            </div>
+            <div class="status-bar">
+                <span>Azken Eguneratzea: 2025/05/12</span>
+                <span>Erregistro osatua</span>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
